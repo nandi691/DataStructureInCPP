@@ -19,7 +19,7 @@ int main()
 	{
 		for(int j=i+1;j<8;j++)
 		{
-			if(arr[j]<arr[i])
+			if(arr[j]>arr[i])
 			{
 				tmp = arr[j];
 				arr[j]=arr[i];
